@@ -1,7 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:chat_updated/screens/login_screen.dart';
 import 'package:chat_updated/screens/registration_screen.dart';
-import 'package:chat_updated/components/PaddedLongButton.dart';
+import 'package:chat_updated/components/padded_long_button.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatefulWidget {
