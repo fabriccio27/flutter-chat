@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:chat_updated/screens/login_screen.dart';
 import 'package:chat_updated/screens/registration_screen.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +26,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
       setState(() {});
     });
   }
-  
+
   // to clean resources
   @override
   void dispose() {
@@ -44,7 +45,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Row(
-              children: <Widget>[
+              children: [
                 Hero(
                   tag: 'logo', 
                   child: Container(
@@ -52,13 +53,15 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                     child: Image.asset('images/logo.png'),
                   ),
                 ),
-                const Text(
+                AnimatedTextKit(animatedTexts: [
+                  TypewriterAnimatedText(
                   'Flash Chat',
-                  style: TextStyle(
+                  textStyle: const TextStyle(
                     fontSize: 45.0,
                     fontWeight: FontWeight.w900,
                   ),
                 ),
+                ]) 
               ],
             ),
             const SizedBox(
