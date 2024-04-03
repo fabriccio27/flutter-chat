@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19009988284",
+    "project_id": "flash-chat-e3dea",
+    "storage_bucket": "flash-chat-e3dea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19009988284:android:6d198a1dac6cabd379d2b9",
+        "android_client_info": {
+          "package_name": "com.fabriciosflutterrun.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJKLhGfpNmOXriTnunAp3J5BdkIC8Oyfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
